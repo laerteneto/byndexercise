@@ -3,6 +3,9 @@
 In this exercice we are going to use the Cypress framework [Cypress](https://www.cypress.io/).
 The API documentation is available [here](https://docs.cypress.io/api/api/table-of-contents.html).
 
+The tests are located in the path ```cypress/integration/tests.spec.js```
+The pages and test components are located in the path ```cypress/support```
+
 ### Dependencies
 
 You will need to install the Node.js to execute the project. Download the latest Node available version [here](https://nodejs.org/pt-br/download/).
