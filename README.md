@@ -11,7 +11,7 @@ After the completed node's installation, you will need to clone this current rep
 
 > ```bash
 > # Git Links
-> git clone
+> git clone https://github.com/laerteneto/byndexercise
 > ```
 
 ### Installing the dependencies

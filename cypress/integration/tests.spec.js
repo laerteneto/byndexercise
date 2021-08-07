@@ -5,7 +5,7 @@ import SalePage from "../support/pages/salePage";
 import Header from "../support/components/header";
 import ProductPage from "../support/pages/productPage";
 
-describe("Testes de login", () => {
+describe("Bynd exercise tests", () => {
   const header = new Header();
   const homePage = new HomePage();
   const salePage = new SalePage();
@@ -20,7 +20,7 @@ describe("Testes de login", () => {
     salePage.assertSalePageOnScreen();
   });
 
-  it.only("Detect Bug 02", () => {
+  it("Detect Bug 02", () => {
     homePage.clickProductFromHomePage("Blouse");
     productPage.insertQuantityInProduct("asfasfasfasf");
     productPage.assertValueOnQuantityField("");
